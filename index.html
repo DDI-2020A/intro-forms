@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>repl.it</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <form method="post">
+  	<div>
+	  	<label for="firstname">Nombre</label>
+	    <input type="text" name="firstname" id="firstname" placeholder="Ingrese su nombre" required="required">
+    </div>
+    
+    <div>
+    	<label for="email">Email</label>
+    	<input type="email" name="emailfirst" id="email" placeholder="usuario@email.com">
+    </div>
+    
+    <div>
+    	<label>Teléfono</label>
+    	<input type="tel" name="phone">
+    </div>
+    
+    <div>
+    	<label>URL</label>
+    	<input type="url" name="url" value="https://epn.edu.ec" readonly="readonly" >
+    </div>
+
+    <div>
+    	<textarea name="bio" id="bio">Texto del textarea</textarea>
+    </div>
+
+    <div>
+    	<label for="city">Ciudad</label>
+	    <select name="city" id="city">
+	    	<option value="">Seleccione...</option>
+	    	<option value="1">Quito</option>
+	    	<option value="2">Guayaquil</option>
+	    	<option value="3">Cuenca</option>
+	    	<option value="4">Loja</option>
+	    </select>
+    </div>
+
+	<div>
+		<span>Habilidades</span>
+	</div>
+    <div>
+    	<div>
+	    	<input type="checkbox" name="skills1" id="checkbox-programacion" value="programacion">
+	    	<label for="checkbox-programacion">Programación</label>
+    	</div>
+    	<div>
+	    	<input type="checkbox" name="skills2" id="checkbox-bdd" value="bdd">
+	    	<label for="checkbox-bdd">Bases de datos</label>
+    	</div>
+    	<div>
+	    	<input type="checkbox" name="skills3" id="checkbox-redes" value="redes">
+	    	<label for="checkbox-redes">Redes</label>
+    	</div>
+    	<div>
+	    	<input type="checkbox" name="skills4" id="checkbox-servidores" value="servidores">
+	    	<label for="checkbox-servidores">Servidores</label>
+    	</div>
+    </div>
+
+	<div>
+		<span>Sexo</span>
+	</div>
+    <div>
+    	<div>
+	    	<input type="radio" name="sex" id="radio-hombre" value="hombre">
+	    	<label for="radio-hombre">Hombre</label>
+    	</div>
+    	<div>
+	    	<input type="radio" name="sex" id="radio-mujer" value="mujer">
+	    	<label for="radio-mujer">Mujer</label>
+    	</div>
+    </div>
+
+    <div>
+    	<label>Clave</label>
+    	<input type="password" name="password">
+    </div>
+
+
+
+    <input type="submit" name="send" value="Enviar">
+    <button>Botón Enviar</button>
+  </form>
+</body>
+</html>
